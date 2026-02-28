@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================================
+# Documentación - Archivos Markdown
+# ============================================================================
+# Ignorar todos los archivos .md
+*.md
+
+# EXCEPTO: README.md y CHANGELOG.md (estos SÍ se suben a Git)
+!README.md
+!CHANGELOG.md
+
+# Nota: El orden importa en .gitignore
+# Primero se ignoran todos los .md con *.md
+# Luego se hace excepción con !README.md y !CHANGELOG.md
