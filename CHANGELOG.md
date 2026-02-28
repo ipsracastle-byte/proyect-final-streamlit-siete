@@ -1,5 +1,35 @@
 # 📝 CHANGELOG - Proyecto Sprint Final 7
 
+## [0.0.3] - 2026-02-28
+
+### 🔧 Fix: Optimización del Dataset
+
+#### 📊 Reducción del Dataset
+- ✅ Dataset reducido de 51,525 a 10,000 registros
+- ✅ Muestra aleatoria con `random_state=42` para reproducibilidad
+- ✅ Tamaño reducido de 4.3 MB a 853 KB (80% más ligero)
+- ✅ Backup del dataset completo: `vehicles_us_full.csv`
+- ✅ Dataset completo agregado a `.gitignore`
+
+#### 📈 Estadísticas de la Muestra
+- Precio promedio: $12,171.54
+- Odómetro promedio: 115,290 millas
+- Años únicos: 54
+- Marcas únicas: 100
+
+#### 🎯 Beneficios
+- ⚡ Repositorio más ligero
+- ⚡ Clonación más rápida
+- ⚡ Push/Pull más eficientes
+- ✅ Datos representativos mantenidos
+
+#### 📝 Archivos Modificados
+- `data/raw/vehicles_us.csv` - Reducido a 10,000 registros
+- `.gitignore` - Agregado `*_full.csv` y `vehicles_us_full.csv`
+- `CHANGELOG.md` - Documentado el cambio
+
+---
+
 ## [0.0.2] - 2026-02-27
 
 ### ✨ Nueva Funcionalidad: Gráfico de Dispersión
